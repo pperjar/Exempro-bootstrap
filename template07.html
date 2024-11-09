@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="Viewport" content="width=device=width, 
+     inistial-scale=1">
+    <title> Bootstrap - Template 07</title>
+    <!--Incorporação do Bootstrap-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Menu-->
+
+    <nav class="navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MENU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="collapse navbar-collapse"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navabar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            IMPRENSA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">FOTOS</a></li>
+                            <li><a class="dropdown-item" href="#">NOTICIAS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">VIDEOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a ckass="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">DESTIVADO</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="pesquisar" arial-label=search>
+                    <button class="btn btn-outline-success" type="submit">PESQUISAR</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Incorporação do do bootstrap | JS-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
